@@ -22,6 +22,8 @@ public class Vehicle {
     private Double engineCap;
     private int noOfGears;
 
+    //this is vehicle part
+
     @OneToMany(mappedBy = "vehicle", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<SparePart> spareParts;
 

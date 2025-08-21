@@ -1,9 +1,6 @@
 package lk.acpt.car_sale.service.impl;
 
-import lk.acpt.car_sale.dto.SparePartDto;
 import lk.acpt.car_sale.dto.VehicleDto;
-import lk.acpt.car_sale.dto.VehicleSpareWithDto;
-import lk.acpt.car_sale.entity.SparePart;
 import lk.acpt.car_sale.entity.Vehicle;
 import lk.acpt.car_sale.repo.VehicleRepo;
 import lk.acpt.car_sale.service.VehicleService;
